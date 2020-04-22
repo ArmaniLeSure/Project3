@@ -37,3 +37,16 @@ section{
 	width:40%;
 	margin: 8px auto;
 }
+
+@media (min-width:600px){
+	p, h1, h2{
+			font-size: 125%;
+	}
+}
+
+@media (min-width:800px){
+	p, h1, h2{
+			font-size: 150%;
+			line-height: 1.5;
+	}
+}
