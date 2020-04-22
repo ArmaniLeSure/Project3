@@ -1,9 +1,9 @@
 function init(){
 	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng();
+	var myLocation = new google.maps.LatLng(41.835117,-87.627130);
 	var mapOptions = {
 		center: myLocation,
-		zoom: 10,
+		zoom: 18,
 		mapTypeId: google.maps.ControlPosition.BOTTOM_CENTER
 		mapTypeControlOptions:{
 			position: google.maps.ControlPosition.BOTTOM_CENTER
