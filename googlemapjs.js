@@ -1,10 +1,10 @@
 function init(){
 	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(41.835117,-87.627130);
+	var myLocation = new google.maps.LatLng(41.833938,-87.626078);
 	var mapOptions = {
 		center: myLocation,
-		zoom: 18,
-		mapTypeId: google.maps.ControlPosition.BOTTOM_CENTER
+		zoom: 10,
+		mapTypeId: google.maps.mapTypeId.SATELLITE
 		mapTypeControlOptions:{
 			position: google.maps.ControlPosition.BOTTOM_CENTER
 		}
